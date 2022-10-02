@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            justify-content: center;
+        }
+        #heading{
+            text-align: center;
+            padding-top: 10px;
+            font-size:3em;
+            font-weight:600;
+            font-family:'Lato',open-serif;
+        }
+        /* #scoreboard{
+            width:50%;
+        } */
+        #gameover{
+            /* width:50%; */
+          font-family:'Lato',open-serif;
+          text-align: center;
+          font-size: 2em;
+          font-weight: 800;
+        }
+        #score{
+          font-family:'Lato',open-serif;
+          text-align: center;
+          font-size: 1.1em;
+          font-weight: 700;
+        }
+        #snakeboard{
+            padding:30px 40px;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div id="heading";>SNAKE GAME BY PK</div>
+        <div id="gameover">Score: <span id="score">0</span></div>
+        <canvas id="snakeboard" width="400" height="400" ></canvas>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
